@@ -1,0 +1,11 @@
+--- nagwatch-0.1/nagwatch~	2003-03-10 17:04:27.000000000 +0200
++++ nagwatch-0.1/nagwatch	2006-03-14 21:59:44.000000000 +0200
+@@ -13,7 +13,7 @@
+ my $port   = "33333";
+ my $browser = "/usr/bin/mozilla";
+ my $url = "http://nagios.mydomain.org/nagios/";
+-my $pixmapdir = "/usr/local/share/nagwatch";
++my $pixmapdir = "/usr/share/nagwatch";
+ 
+ 
+ ### Probably from here, nothing should be changed

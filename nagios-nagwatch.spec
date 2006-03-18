@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Gtk-Perl frontend for viewing the current status of Nagios
+Summary(pl):	Frontend Gtk-Perl do ogl±dania aktualnego stanu Nagiosa
 Name:		nagios-nagwatch
 Version:	0.1
 Release:	0.2
@@ -18,6 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Nagios Watch is a Gtk-Perl frontend, that reads the status.log file
 which is created by Nagios <http://www.nagios.org>.
+
+%description -l pl
+Nagios Watch to frontend Gtk-Perl odczytuj±cy plik status.log tworzony
+przez Nagiosa (<http://www.nagios.org>).
 
 %prep
 %setup -q -n nagwatch-%{version}

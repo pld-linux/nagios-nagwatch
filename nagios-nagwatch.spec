@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Gtk-Perl frontend for viewing the current status of Nagios
 Summary(pl.UTF-8):	Frontend Gtk-Perl do oglądania aktualnego stanu Nagiosa
 Name:		nagios-nagwatch
